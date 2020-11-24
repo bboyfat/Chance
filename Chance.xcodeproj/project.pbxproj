@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2359FD3C256D8FFC007272E7 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD3A256D8FFC007272E7 /* InformationViewController.swift */; };
+		2359FD3D256D8FFC007272E7 /* InformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD3B256D8FFC007272E7 /* InformationViewController.xib */; };
+		2359FD43256D902A007272E7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD41256D902A007272E7 /* AccountViewController.swift */; };
+		2359FD44256D902A007272E7 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD42256D902A007272E7 /* AccountViewController.xib */; };
+		2359FD4A256D904E007272E7 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD48256D904E007272E7 /* PersonViewController.swift */; };
+		2359FD4B256D904E007272E7 /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD49256D904E007272E7 /* PersonViewController.xib */; };
 		C2C07DA8256D469F00D4CE61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C07DA7256D469F00D4CE61 /* AppDelegate.swift */; };
 		C2C07DAA256D469F00D4CE61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C07DA9256D469F00D4CE61 /* SceneDelegate.swift */; };
 		C2C07DAC256D469F00D4CE61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C07DAB256D469F00D4CE61 /* ViewController.swift */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2359FD3A256D8FFC007272E7 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
+		2359FD3B256D8FFC007272E7 /* InformationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationViewController.xib; sourceTree = "<group>"; };
+		2359FD41256D902A007272E7 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		2359FD42256D902A007272E7 /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		2359FD48256D904E007272E7 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		2359FD49256D904E007272E7 /* PersonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
 		C2C07DA4256D469F00D4CE61 /* Chance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C07DA7256D469F00D4CE61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2C07DA9256D469F00D4CE61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +88,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2359FD34256D8F62007272E7 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2359FD3A256D8FFC007272E7 /* InformationViewController.swift */,
+				2359FD3B256D8FFC007272E7 /* InformationViewController.xib */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		2359FD35256D8F75007272E7 /* secondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2359FD41256D902A007272E7 /* AccountViewController.swift */,
+				2359FD42256D902A007272E7 /* AccountViewController.xib */,
+			);
+			path = secondScreen;
+			sourceTree = "<group>";
+		};
+		2359FD36256D8F85007272E7 /* 3 Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2359FD48256D904E007272E7 /* PersonViewController.swift */,
+				2359FD49256D904E007272E7 /* PersonViewController.xib */,
+			);
+			path = "3 Screen";
+			sourceTree = "<group>";
+		};
 		C2C07D9B256D469F00D4CE61 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +142,9 @@
 				C2C07DA9256D469F00D4CE61 /* SceneDelegate.swift */,
 				C2C07DAB256D469F00D4CE61 /* ViewController.swift */,
 				C2C07DAD256D469F00D4CE61 /* Main.storyboard */,
+				2359FD34256D8F62007272E7 /* FirstScreen */,
+				2359FD35256D8F75007272E7 /* secondScreen */,
+				2359FD36256D8F85007272E7 /* 3 Screen */,
 				C2C07DB0256D46A000D4CE61 /* Assets.xcassets */,
 				C2C07DB2256D46A000D4CE61 /* LaunchScreen.storyboard */,
 				C2C07DB5256D46A000D4CE61 /* Info.plist */,
@@ -234,6 +276,9 @@
 				C2C07DB4256D46A000D4CE61 /* LaunchScreen.storyboard in Resources */,
 				C2C07DB1256D46A000D4CE61 /* Assets.xcassets in Resources */,
 				C2C07DAF256D469F00D4CE61 /* Main.storyboard in Resources */,
+				2359FD4B256D904E007272E7 /* PersonViewController.xib in Resources */,
+				2359FD3D256D8FFC007272E7 /* InformationViewController.xib in Resources */,
+				2359FD44256D902A007272E7 /* AccountViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2C07DAC256D469F00D4CE61 /* ViewController.swift in Sources */,
+				2359FD4A256D904E007272E7 /* PersonViewController.swift in Sources */,
+				2359FD43256D902A007272E7 /* AccountViewController.swift in Sources */,
 				C2C07DA8256D469F00D4CE61 /* AppDelegate.swift in Sources */,
 				C2C07DAA256D469F00D4CE61 /* SceneDelegate.swift in Sources */,
+				2359FD3C256D8FFC007272E7 /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
