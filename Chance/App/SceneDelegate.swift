@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let navigationController = UINavigationController()
         let assembly = AuthAssembly()
         let router = AuthRouter(navigationController, assembly: assembly)
-        router.initial(vc: .auth(.signUp))
+        router.initial(vc: .auth(.flash))
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }

@@ -36,11 +36,19 @@ class AuthAssembly: Assembly {
         switch auth {
         case .signUp:
             return registration(router)
+        case .flash:
+            return flash(router)
         default:
             return UIViewController()
         }
     }
     
+    private func flash(_ router: Router?) -> UIViewController {
+        let vc = FlashController()
+        let presenter = FlashPresenter(router, output: vc)
+        vc.setPresenter(presenter)
+        return vc
+    }
     
     private func registration(_ router: Router?) -> UIViewController {
         let vc = RegistrationController()

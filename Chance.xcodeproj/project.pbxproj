@@ -15,6 +15,11 @@
 		2359FD4B256D904E007272E7 /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD49256D904E007272E7 /* ProfileController.xib */; };
 		C239ED0D256E4C970008C3A0 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239ED0C256E4C970008C3A0 /* Assembly.swift */; };
 		C239ED15256E4DE00008C3A0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239ED14256E4DE00008C3A0 /* Router.swift */; };
+		C239ED1F256E53110008C3A0 /* FlashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239ED1D256E53110008C3A0 /* FlashController.swift */; };
+		C239ED20256E53110008C3A0 /* FlashController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C239ED1E256E53110008C3A0 /* FlashController.xib */; };
+		C239ED2B256E53740008C3A0 /* FlashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239ED2A256E53740008C3A0 /* FlashPresenter.swift */; };
+		C28613DD256E59000036008A /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28613DC256E59000036008A /* BaseController.swift */; };
+		C28613E3256E59250036008A /* UIView + Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28613E2256E59250036008A /* UIView + Config.swift */; };
 		C2C07DA8256D469F00D4CE61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C07DA7256D469F00D4CE61 /* AppDelegate.swift */; };
 		C2C07DAA256D469F00D4CE61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C07DA9256D469F00D4CE61 /* SceneDelegate.swift */; };
 		C2C07DAF256D469F00D4CE61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C07DAD256D469F00D4CE61 /* Main.storyboard */; };
@@ -50,6 +55,11 @@
 		2359FD49256D904E007272E7 /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
 		C239ED0C256E4C970008C3A0 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
 		C239ED14256E4DE00008C3A0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		C239ED1D256E53110008C3A0 /* FlashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashController.swift; sourceTree = "<group>"; };
+		C239ED1E256E53110008C3A0 /* FlashController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlashController.xib; sourceTree = "<group>"; };
+		C239ED2A256E53740008C3A0 /* FlashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashPresenter.swift; sourceTree = "<group>"; };
+		C28613DC256E59000036008A /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		C28613E2256E59250036008A /* UIView + Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Config.swift"; sourceTree = "<group>"; };
 		C2C07DA4256D469F00D4CE61 /* Chance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C07DA7256D469F00D4CE61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2C07DA9256D469F00D4CE61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -220,9 +230,44 @@
 			path = Assembly;
 			sourceTree = "<group>";
 		};
+		C239ED1C256E52FA0008C3A0 /* FlashModule */ = {
+			isa = PBXGroup;
+			children = (
+				C239ED29256E535E0008C3A0 /* Model */,
+				C239ED28256E53590008C3A0 /* View */,
+				C239ED27256E534C0008C3A0 /* Presenter */,
+			);
+			path = FlashModule;
+			sourceTree = "<group>";
+		};
+		C239ED27256E534C0008C3A0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C239ED2A256E53740008C3A0 /* FlashPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C239ED28256E53590008C3A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C239ED1D256E53110008C3A0 /* FlashController.swift */,
+				C239ED1E256E53110008C3A0 /* FlashController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C239ED29256E535E0008C3A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C2641535256E290000BFF234 /* AuthModule */ = {
 			isa = PBXGroup;
 			children = (
+				C239ED1C256E52FA0008C3A0 /* FlashModule */,
 				2359FD35256D8F75007272E7 /* RegistrationModule */,
 				2359FD34256D8F62007272E7 /* UserInfoModule */,
 			);
@@ -232,11 +277,28 @@
 		C2641539256E290A00BFF234 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				C28613DB256E58F30036008A /* Base */,
 				C2C07DAD256D469F00D4CE61 /* Main.storyboard */,
 				C2C07DA7256D469F00D4CE61 /* AppDelegate.swift */,
 				C2C07DA9256D469F00D4CE61 /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		C28613DB256E58F30036008A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C28613DC256E59000036008A /* BaseController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C28613E1256E59100036008A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C28613E2256E59250036008A /* UIView + Config.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		C2C07D9B256D469F00D4CE61 = {
@@ -262,6 +324,7 @@
 		C2C07DA6256D469F00D4CE61 /* Chance */ = {
 			isa = PBXGroup;
 			children = (
+				C28613E1256E59100036008A /* Extensions */,
 				C239ED0A256E3EEA0008C3A0 /* Assembly */,
 				C239ED09256E3EE50008C3A0 /* Router */,
 				C239ED08256E3EDE0008C3A0 /* Network */,
@@ -399,6 +462,7 @@
 				C2C07DB4256D46A000D4CE61 /* LaunchScreen.storyboard in Resources */,
 				C2C07DB1256D46A000D4CE61 /* Assets.xcassets in Resources */,
 				C2C07DAF256D469F00D4CE61 /* Main.storyboard in Resources */,
+				C239ED20256E53110008C3A0 /* FlashController.xib in Resources */,
 				2359FD4B256D904E007272E7 /* ProfileController.xib in Resources */,
 				2359FD3D256D8FFC007272E7 /* UserInfoController.xib in Resources */,
 				2359FD44256D902A007272E7 /* RegistrationController.xib in Resources */,
@@ -427,7 +491,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2359FD4A256D904E007272E7 /* ProfileController.swift in Sources */,
+				C239ED2B256E53740008C3A0 /* FlashPresenter.swift in Sources */,
+				C28613DD256E59000036008A /* BaseController.swift in Sources */,
 				C239ED0D256E4C970008C3A0 /* Assembly.swift in Sources */,
+				C28613E3256E59250036008A /* UIView + Config.swift in Sources */,
+				C239ED1F256E53110008C3A0 /* FlashController.swift in Sources */,
 				2359FD43256D902A007272E7 /* RegistrationController.swift in Sources */,
 				C239ED15256E4DE00008C3A0 /* Router.swift in Sources */,
 				C2C07DA8256D469F00D4CE61 /* AppDelegate.swift in Sources */,
