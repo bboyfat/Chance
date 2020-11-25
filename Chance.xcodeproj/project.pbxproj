@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2359FD3C256D8FFC007272E7 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD3A256D8FFC007272E7 /* InformationViewController.swift */; };
-		2359FD3D256D8FFC007272E7 /* InformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD3B256D8FFC007272E7 /* InformationViewController.xib */; };
+		2359FD3C256D8FFC007272E7 /* UserInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD3A256D8FFC007272E7 /* UserInfoController.swift */; };
+		2359FD3D256D8FFC007272E7 /* UserInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD3B256D8FFC007272E7 /* UserInfoController.xib */; };
 		2359FD43256D902A007272E7 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD41256D902A007272E7 /* RegistrationController.swift */; };
 		2359FD44256D902A007272E7 /* RegistrationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD42256D902A007272E7 /* RegistrationController.xib */; };
 		2359FD4A256D904E007272E7 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD48256D904E007272E7 /* ProfileController.swift */; };
@@ -40,8 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2359FD3A256D8FFC007272E7 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
-		2359FD3B256D8FFC007272E7 /* InformationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationViewController.xib; sourceTree = "<group>"; };
+		2359FD3A256D8FFC007272E7 /* UserInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoController.swift; sourceTree = "<group>"; };
+		2359FD3B256D8FFC007272E7 /* UserInfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoController.xib; sourceTree = "<group>"; };
 		2359FD41256D902A007272E7 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 		2359FD42256D902A007272E7 /* RegistrationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationController.xib; sourceTree = "<group>"; };
 		2359FD48256D904E007272E7 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
@@ -89,8 +89,9 @@
 		2359FD34256D8F62007272E7 /* UserInfoModule */ = {
 			isa = PBXGroup;
 			children = (
-				2359FD3A256D8FFC007272E7 /* InformationViewController.swift */,
-				2359FD3B256D8FFC007272E7 /* InformationViewController.xib */,
+				C239ED07256E3EBE0008C3A0 /* Model */,
+				C239ED06256E3EB80008C3A0 /* Presenter */,
+				C239ED05256E3EB30008C3A0 /* View */,
 			);
 			path = UserInfoModule;
 			sourceTree = "<group>";
@@ -98,8 +99,9 @@
 		2359FD35256D8F75007272E7 /* RegistrationModule */ = {
 			isa = PBXGroup;
 			children = (
-				2359FD41256D902A007272E7 /* RegistrationController.swift */,
-				2359FD42256D902A007272E7 /* RegistrationController.xib */,
+				C239ED04256E3E5D0008C3A0 /* Model */,
+				C239ED03256E3E4F0008C3A0 /* Presenter */,
+				C239ED02256E3E490008C3A0 /* View */,
 			);
 			path = RegistrationModule;
 			sourceTree = "<group>";
@@ -107,8 +109,9 @@
 		2359FD36256D8F85007272E7 /* ProfileModule */ = {
 			isa = PBXGroup;
 			children = (
-				2359FD48256D904E007272E7 /* ProfileController.swift */,
-				2359FD49256D904E007272E7 /* ProfileController.xib */,
+				C239ED01256E3E420008C3A0 /* Model */,
+				C239ED00256E3E3C0008C3A0 /* Presenter */,
+				C239ECFF256E3E310008C3A0 /* View */,
 			);
 			path = ProfileModule;
 			sourceTree = "<group>";
@@ -119,6 +122,96 @@
 				2359FD36256D8F85007272E7 /* ProfileModule */,
 			);
 			path = MainModule;
+			sourceTree = "<group>";
+		};
+		C239ECFF256E3E310008C3A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2359FD48256D904E007272E7 /* ProfileController.swift */,
+				2359FD49256D904E007272E7 /* ProfileController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C239ED00256E3E3C0008C3A0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C239ED01256E3E420008C3A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C239ED02256E3E490008C3A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2359FD41256D902A007272E7 /* RegistrationController.swift */,
+				2359FD42256D902A007272E7 /* RegistrationController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C239ED03256E3E4F0008C3A0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C239ED04256E3E5D0008C3A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C239ED05256E3EB30008C3A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2359FD3A256D8FFC007272E7 /* UserInfoController.swift */,
+				2359FD3B256D8FFC007272E7 /* UserInfoController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C239ED06256E3EB80008C3A0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C239ED07256E3EBE0008C3A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C239ED08256E3EDE0008C3A0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C239ED09256E3EE50008C3A0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C239ED0A256E3EEA0008C3A0 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		C2641535256E290000BFF234 /* AuthModule */ = {
@@ -163,6 +256,9 @@
 		C2C07DA6256D469F00D4CE61 /* Chance */ = {
 			isa = PBXGroup;
 			children = (
+				C239ED0A256E3EEA0008C3A0 /* Assembly */,
+				C239ED09256E3EE50008C3A0 /* Router */,
+				C239ED08256E3EDE0008C3A0 /* Network */,
 				C2641539256E290A00BFF234 /* App */,
 				C2641535256E290000BFF234 /* AuthModule */,
 				C239ECFE256E2BE70008C3A0 /* MainModule */,
@@ -298,7 +394,7 @@
 				C2C07DB1256D46A000D4CE61 /* Assets.xcassets in Resources */,
 				C2C07DAF256D469F00D4CE61 /* Main.storyboard in Resources */,
 				2359FD4B256D904E007272E7 /* ProfileController.xib in Resources */,
-				2359FD3D256D8FFC007272E7 /* InformationViewController.xib in Resources */,
+				2359FD3D256D8FFC007272E7 /* UserInfoController.xib in Resources */,
 				2359FD44256D902A007272E7 /* RegistrationController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,7 +424,7 @@
 				2359FD43256D902A007272E7 /* RegistrationController.swift in Sources */,
 				C2C07DA8256D469F00D4CE61 /* AppDelegate.swift in Sources */,
 				C2C07DAA256D469F00D4CE61 /* SceneDelegate.swift in Sources */,
-				2359FD3C256D8FFC007272E7 /* InformationViewController.swift in Sources */,
+				2359FD3C256D8FFC007272E7 /* UserInfoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
