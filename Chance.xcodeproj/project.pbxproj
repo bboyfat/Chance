@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		2359FD3C256D8FFC007272E7 /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD3A256D8FFC007272E7 /* InformationViewController.swift */; };
 		2359FD3D256D8FFC007272E7 /* InformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD3B256D8FFC007272E7 /* InformationViewController.xib */; };
-		2359FD43256D902A007272E7 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD41256D902A007272E7 /* AccountViewController.swift */; };
-		2359FD44256D902A007272E7 /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD42256D902A007272E7 /* AccountViewController.xib */; };
-		2359FD4A256D904E007272E7 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD48256D904E007272E7 /* PersonViewController.swift */; };
-		2359FD4B256D904E007272E7 /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD49256D904E007272E7 /* PersonViewController.xib */; };
+		2359FD43256D902A007272E7 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD41256D902A007272E7 /* RegistrationController.swift */; };
+		2359FD44256D902A007272E7 /* RegistrationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD42256D902A007272E7 /* RegistrationController.xib */; };
+		2359FD4A256D904E007272E7 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD48256D904E007272E7 /* ProfileController.swift */; };
+		2359FD4B256D904E007272E7 /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD49256D904E007272E7 /* ProfileController.xib */; };
 		C2C07DA8256D469F00D4CE61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C07DA7256D469F00D4CE61 /* AppDelegate.swift */; };
 		C2C07DAA256D469F00D4CE61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C07DA9256D469F00D4CE61 /* SceneDelegate.swift */; };
-		C2C07DAC256D469F00D4CE61 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C07DAB256D469F00D4CE61 /* ViewController.swift */; };
 		C2C07DAF256D469F00D4CE61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C07DAD256D469F00D4CE61 /* Main.storyboard */; };
 		C2C07DB1256D46A000D4CE61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2C07DB0256D46A000D4CE61 /* Assets.xcassets */; };
 		C2C07DB4256D46A000D4CE61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2C07DB2256D46A000D4CE61 /* LaunchScreen.storyboard */; };
@@ -43,14 +42,13 @@
 /* Begin PBXFileReference section */
 		2359FD3A256D8FFC007272E7 /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		2359FD3B256D8FFC007272E7 /* InformationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationViewController.xib; sourceTree = "<group>"; };
-		2359FD41256D902A007272E7 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
-		2359FD42256D902A007272E7 /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
-		2359FD48256D904E007272E7 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
-		2359FD49256D904E007272E7 /* PersonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
+		2359FD41256D902A007272E7 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		2359FD42256D902A007272E7 /* RegistrationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationController.xib; sourceTree = "<group>"; };
+		2359FD48256D904E007272E7 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		2359FD49256D904E007272E7 /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
 		C2C07DA4256D469F00D4CE61 /* Chance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C07DA7256D469F00D4CE61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2C07DA9256D469F00D4CE61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C2C07DAB256D469F00D4CE61 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2C07DAE256D469F00D4CE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C2C07DB0256D46A000D4CE61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2C07DB3256D46A000D4CE61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -88,31 +86,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2359FD34256D8F62007272E7 /* FirstScreen */ = {
+		2359FD34256D8F62007272E7 /* UserInfoModule */ = {
 			isa = PBXGroup;
 			children = (
 				2359FD3A256D8FFC007272E7 /* InformationViewController.swift */,
 				2359FD3B256D8FFC007272E7 /* InformationViewController.xib */,
 			);
-			path = FirstScreen;
+			path = UserInfoModule;
 			sourceTree = "<group>";
 		};
-		2359FD35256D8F75007272E7 /* secondScreen */ = {
+		2359FD35256D8F75007272E7 /* RegistrationModule */ = {
 			isa = PBXGroup;
 			children = (
-				2359FD41256D902A007272E7 /* AccountViewController.swift */,
-				2359FD42256D902A007272E7 /* AccountViewController.xib */,
+				2359FD41256D902A007272E7 /* RegistrationController.swift */,
+				2359FD42256D902A007272E7 /* RegistrationController.xib */,
 			);
-			path = secondScreen;
+			path = RegistrationModule;
 			sourceTree = "<group>";
 		};
-		2359FD36256D8F85007272E7 /* 3 Screen */ = {
+		2359FD36256D8F85007272E7 /* ProfileModule */ = {
 			isa = PBXGroup;
 			children = (
-				2359FD48256D904E007272E7 /* PersonViewController.swift */,
-				2359FD49256D904E007272E7 /* PersonViewController.xib */,
+				2359FD48256D904E007272E7 /* ProfileController.swift */,
+				2359FD49256D904E007272E7 /* ProfileController.xib */,
 			);
-			path = "3 Screen";
+			path = ProfileModule;
+			sourceTree = "<group>";
+		};
+		C239ECFE256E2BE70008C3A0 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				2359FD36256D8F85007272E7 /* ProfileModule */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		C2641535256E290000BFF234 /* AuthModule */ = {
+			isa = PBXGroup;
+			children = (
+				2359FD35256D8F75007272E7 /* RegistrationModule */,
+				2359FD34256D8F62007272E7 /* UserInfoModule */,
+			);
+			path = AuthModule;
+			sourceTree = "<group>";
+		};
+		C2641539256E290A00BFF234 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C2C07DAD256D469F00D4CE61 /* Main.storyboard */,
+				C2C07DA7256D469F00D4CE61 /* AppDelegate.swift */,
+				C2C07DA9256D469F00D4CE61 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		C2C07D9B256D469F00D4CE61 = {
@@ -138,13 +163,9 @@
 		C2C07DA6256D469F00D4CE61 /* Chance */ = {
 			isa = PBXGroup;
 			children = (
-				C2C07DA7256D469F00D4CE61 /* AppDelegate.swift */,
-				C2C07DA9256D469F00D4CE61 /* SceneDelegate.swift */,
-				C2C07DAB256D469F00D4CE61 /* ViewController.swift */,
-				C2C07DAD256D469F00D4CE61 /* Main.storyboard */,
-				2359FD34256D8F62007272E7 /* FirstScreen */,
-				2359FD35256D8F75007272E7 /* secondScreen */,
-				2359FD36256D8F85007272E7 /* 3 Screen */,
+				C2641539256E290A00BFF234 /* App */,
+				C2641535256E290000BFF234 /* AuthModule */,
+				C239ECFE256E2BE70008C3A0 /* MainModule */,
 				C2C07DB0256D46A000D4CE61 /* Assets.xcassets */,
 				C2C07DB2256D46A000D4CE61 /* LaunchScreen.storyboard */,
 				C2C07DB5256D46A000D4CE61 /* Info.plist */,
@@ -276,9 +297,9 @@
 				C2C07DB4256D46A000D4CE61 /* LaunchScreen.storyboard in Resources */,
 				C2C07DB1256D46A000D4CE61 /* Assets.xcassets in Resources */,
 				C2C07DAF256D469F00D4CE61 /* Main.storyboard in Resources */,
-				2359FD4B256D904E007272E7 /* PersonViewController.xib in Resources */,
+				2359FD4B256D904E007272E7 /* ProfileController.xib in Resources */,
 				2359FD3D256D8FFC007272E7 /* InformationViewController.xib in Resources */,
-				2359FD44256D902A007272E7 /* AccountViewController.xib in Resources */,
+				2359FD44256D902A007272E7 /* RegistrationController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,9 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C07DAC256D469F00D4CE61 /* ViewController.swift in Sources */,
-				2359FD4A256D904E007272E7 /* PersonViewController.swift in Sources */,
-				2359FD43256D902A007272E7 /* AccountViewController.swift in Sources */,
+				2359FD4A256D904E007272E7 /* ProfileController.swift in Sources */,
+				2359FD43256D902A007272E7 /* RegistrationController.swift in Sources */,
 				C2C07DA8256D469F00D4CE61 /* AppDelegate.swift in Sources */,
 				C2C07DAA256D469F00D4CE61 /* SceneDelegate.swift in Sources */,
 				2359FD3C256D8FFC007272E7 /* InformationViewController.swift in Sources */,

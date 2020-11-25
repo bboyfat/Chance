@@ -1,5 +1,5 @@
 //
-//  PersonViewController.swift
+//  AccountViewController.swift
 //  Chance
 //
 //  Created by Ваге Базикян on 24.11.2020.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PersonViewController: UIViewController {
+class RegistrationController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
