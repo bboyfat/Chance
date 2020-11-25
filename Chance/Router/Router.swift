@@ -12,7 +12,7 @@ protocol Router {
 }
 
 protocol AuthRouterProtocol: Router {
-    func initial(vc: C)
+    func push(vc: C)
     func pop()
     func popToRoot()
 }
@@ -21,7 +21,7 @@ class AuthRouter: AuthRouterProtocol {
     private var nav: UINavigationController?
     private var assembly: Assembly?
     
-    func initial(vc: C) {
+    func push(vc: C) {
         if let nav = nav {
             guard let c = assembly?.build(vc: vc, self) else {return}
             nav.pushViewController(c, animated: true)

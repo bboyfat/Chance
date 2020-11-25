@@ -22,7 +22,7 @@ class FlashPresenter: FlashPresenterProtocol {
     private var output: StatableView?
     
     func signUp() {
-        router?.initial(vc: .auth(.signUp))
+        router?.push(vc: .auth(.signUp))
     }
     
     required init(_ router: Router?, output: StatableView?) {

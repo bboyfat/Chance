@@ -1,18 +1,18 @@
 //
-//  AccountViewController.swift
+//  ViewController.swift
 //  Chance
 //
-//  Created by Ваге Базикян on 24.11.2020.
+//  Created by Ваге Базикян on 25.11.2020.
 //
 
 import UIKit
 
-class RegistrationController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.navigationController?.setNavigationBarHidden(false, animated: false)
+        // Do any additional setup after loading the view.
     }
 
 
