@@ -7,8 +7,6 @@
 
 import Foundation
 
-
-
 protocol Presenter {
     init(_ router: Router?, output: StatableView?)
 }
@@ -23,6 +21,7 @@ class FlashPresenter: FlashPresenterProtocol {
     
     func signUp() {
         router?.push(vc: .auth(.signUp))
+        output?.updateState(s: .loading)
     }
     
     required init(_ router: Router?, output: StatableView?) {

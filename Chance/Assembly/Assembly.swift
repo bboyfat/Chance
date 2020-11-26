@@ -16,6 +16,7 @@ extension C {
         case flash
         case signIn
         case signUp
+        case nextUser
     }
 }
 
@@ -36,13 +37,19 @@ class AuthAssembly: Assembly {
         switch auth {
         case .signUp:
             return registration(router)
+        case .signIn:
+            return registration(router)
         case .flash:
             return flash(router)
+        case .nextUser:
+            return user(router)
         default:
             return UIViewController()
         }
     }
     
+  
+
     private func flash(_ router: Router?) -> UIViewController {
         let vc = FlashController()
         let presenter = FlashPresenter(router, output: vc)
@@ -52,6 +59,14 @@ class AuthAssembly: Assembly {
     
     private func registration(_ router: Router?) -> UIViewController {
         let vc = RegistrationController()
+        let presenter = RegistrationPresenter(router, output: vc)
+        vc.setPresenter(presenter)
+        return vc
+    }
+    private func user(_ router : Router?) -> UIViewController{
+        let vc = UserInfoController()
+        let presenter = UserPresenter(router, output: vc)
+        vc.setPresenter(presenter)
         return vc
     }
 }

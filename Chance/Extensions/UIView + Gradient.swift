@@ -23,7 +23,6 @@ class GradientView : UIView {
     
     private let gradientLayer = CAGradientLayer()
     
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }

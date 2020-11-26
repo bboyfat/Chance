@@ -43,7 +43,12 @@ class BaseViewController: UIViewController, StatableView {
     }
     
     func updateState(s: ViewState) {
-        
+        switch s {
+        case .loading:
+            print("loading")
+        default:
+            return
+        }
     }
 }
 

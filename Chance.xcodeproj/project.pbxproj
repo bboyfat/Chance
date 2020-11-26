@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2340E9B3256FC39F004F9B92 /* UserInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2340E9B2256FC39F004F9B92 /* UserInfoPresenter.swift */; };
 		2359FD3C256D8FFC007272E7 /* UserInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD3A256D8FFC007272E7 /* UserInfoController.swift */; };
 		2359FD3D256D8FFC007272E7 /* UserInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD3B256D8FFC007272E7 /* UserInfoController.xib */; };
 		2359FD43256D902A007272E7 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD41256D902A007272E7 /* RegistrationController.swift */; };
@@ -14,6 +15,7 @@
 		2359FD4A256D904E007272E7 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD48256D904E007272E7 /* ProfileController.swift */; };
 		2359FD4B256D904E007272E7 /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2359FD49256D904E007272E7 /* ProfileController.xib */; };
 		2359FD5E256E7950007272E7 /* UIView + Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2359FD5D256E7950007272E7 /* UIView + Gradient.swift */; };
+		237E317D256EDABC006B4B6D /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E317C256EDABC006B4B6D /* RegisterPresenter.swift */; };
 		C239ED0D256E4C970008C3A0 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239ED0C256E4C970008C3A0 /* Assembly.swift */; };
 		C239ED15256E4DE00008C3A0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239ED14256E4DE00008C3A0 /* Router.swift */; };
 		C239ED1F256E53110008C3A0 /* FlashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C239ED1D256E53110008C3A0 /* FlashController.swift */; };
@@ -48,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2340E9B2256FC39F004F9B92 /* UserInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserInfoPresenter.swift; path = Chance/AuthModule/FlashModule/View/UserInfoPresenter.swift; sourceTree = SOURCE_ROOT; };
 		2359FD3A256D8FFC007272E7 /* UserInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoController.swift; sourceTree = "<group>"; };
 		2359FD3B256D8FFC007272E7 /* UserInfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInfoController.xib; sourceTree = "<group>"; };
 		2359FD41256D902A007272E7 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		2359FD48256D904E007272E7 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		2359FD49256D904E007272E7 /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
 		2359FD5D256E7950007272E7 /* UIView + Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Gradient.swift"; sourceTree = "<group>"; };
+		237E317C256EDABC006B4B6D /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterPresenter.swift; path = Chance/AuthModule/FlashModule/View/RegisterPresenter.swift; sourceTree = SOURCE_ROOT; };
 		C239ED0C256E4C970008C3A0 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
 		C239ED14256E4DE00008C3A0 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		C239ED1D256E53110008C3A0 /* FlashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashController.swift; sourceTree = "<group>"; };
@@ -106,8 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				C239ED07256E3EBE0008C3A0 /* Model */,
-				C239ED06256E3EB80008C3A0 /* Presenter */,
 				C239ED05256E3EB30008C3A0 /* View */,
+				C239ED06256E3EB80008C3A0 /* Presenter */,
 			);
 			path = UserInfoModule;
 			sourceTree = "<group>";
@@ -116,8 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				C239ED04256E3E5D0008C3A0 /* Model */,
-				C239ED03256E3E4F0008C3A0 /* Presenter */,
 				C239ED02256E3E490008C3A0 /* View */,
+				C239ED03256E3E4F0008C3A0 /* Presenter */,
 			);
 			path = RegistrationModule;
 			sourceTree = "<group>";
@@ -175,6 +179,7 @@
 		C239ED03256E3E4F0008C3A0 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				237E317C256EDABC006B4B6D /* RegisterPresenter.swift */,
 			);
 			name = Presenter;
 			path = Model/Presenter;
@@ -199,6 +204,7 @@
 		C239ED06256E3EB80008C3A0 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				2340E9B2256FC39F004F9B92 /* UserInfoPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -501,7 +507,9 @@
 				C239ED0D256E4C970008C3A0 /* Assembly.swift in Sources */,
 				C28613E3256E59250036008A /* UIView + Config.swift in Sources */,
 				C239ED1F256E53110008C3A0 /* FlashController.swift in Sources */,
+				237E317D256EDABC006B4B6D /* RegisterPresenter.swift in Sources */,
 				2359FD43256D902A007272E7 /* RegistrationController.swift in Sources */,
+				2340E9B3256FC39F004F9B92 /* UserInfoPresenter.swift in Sources */,
 				C239ED15256E4DE00008C3A0 /* Router.swift in Sources */,
 				C2C07DA8256D469F00D4CE61 /* AppDelegate.swift in Sources */,
 				C2C07DAA256D469F00D4CE61 /* SceneDelegate.swift in Sources */,
