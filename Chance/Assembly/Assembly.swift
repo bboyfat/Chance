@@ -43,8 +43,6 @@ class AuthAssembly: Assembly {
             return flash(router)
         case .nextUser:
             return user(router)
-        default:
-            return UIViewController()
         }
     }
     
